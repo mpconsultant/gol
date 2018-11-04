@@ -2,7 +2,7 @@
 pipeline {
   // where pipeline job will run
   agent {
-          window_slave
+          label "window_slave"
     } 
          
    
